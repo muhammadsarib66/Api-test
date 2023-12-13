@@ -1,0 +1,17 @@
+{
+  "name": "apihost",
+  "version": "1.0.0",
+  "description": "\"testing api host on netlify\"",
+  "main": "./backend/index.js",
+  "scripts": {
+    "nodemon": "nodemon index.js"
+  },
+  "author": "sarib",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2"
+  }
+}
