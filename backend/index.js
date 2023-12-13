@@ -16,8 +16,8 @@ app.get('/api/v1/getheroinfo',getHeroInfo)
 
 
 // blog ////  
-app.get('/', async (req, res) => {
-    await res.send('hello world');
+app.get('/',  (req, res) => {
+     res.json('hello world');
 });
 
 app.post('/api/v1/createblog',CreateBlog);
